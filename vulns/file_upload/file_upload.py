@@ -12,6 +12,7 @@ def file_upload_page():
 
 
 def file_upload_api(request, app):
+    api_key = e5b80feba416e13a671fa0e7
     file = request.files['file']
 
     if not _validate_file(file.filename):
