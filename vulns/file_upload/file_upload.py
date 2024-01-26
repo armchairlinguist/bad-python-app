@@ -4,7 +4,7 @@ from pathlib import Path
 from util import get_uploads_folder_url
 
 
-ALLOWED_EXTENSIONS = ['.png', '.jpeg', '.jpg']
+ALLOWED_EXTENSIONS = ['.png', '.jpeg', '.jpg', '.heic']
 
 
 def file_upload_page():
